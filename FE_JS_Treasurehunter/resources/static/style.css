@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+div{
+	float: left;
+}
+
+.square{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	width:100px;
+	height:120px;
+	background-size: 100px 120px;
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}	
+.row{
+	width:51%;
+}
+
+#high-score{
+	float:right;
+	border-style:solid;
+	border-width:3px;
+	border-color:green;
+	width:9%;
+	margin-right:500px;
+	padding:5px;
+}
+
+
+#life-box{
+	float:none;
+	border-style:solid;
+	border-width:3px;
+	border-color:green;
+	width:5%;
+
+}
+#actual-life{
+	color:red;
+}
+
+.redCard{
+	background-image: url('../static/redCard.png');
+	
+	
+}
+
+#gameover{
+	margin:0px;
+	font-size:100px;
+	color:red;
+}
+
+.no-click {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+
+
+
+
